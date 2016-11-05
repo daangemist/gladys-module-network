@@ -21,5 +21,9 @@
   "bugs": {
     "url": "https://github.com/matueranet/gladys-module-network/issues"
   },
-  "homepage": "https://github.com/matueranet/gladys-module-network#readme"
+  "homepage": "https://github.com/matueranet/gladys-module-network#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "ping-bluebird": "0.0.3"
+  }
 }

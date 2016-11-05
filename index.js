@@ -1,10 +1,8 @@
 module.exports = function(sails) {
 
-    //var setup = require('./lib/install.js');
-    //var start = require('./lib/start.js');
+    var ping = require('./lib/ping.js');
 
     return {
-        //install: install,
-        //start: start,
+        ping: ping
     };
 };
